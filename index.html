@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body >
+    
+   <header> 
+    <nav class="navbar navbar-expand-lg bg-white px-4 border-botto mb-5 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-1 fw-bold" href="#">HEALTHY<span class="tech">FOOD</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4 text-center">
+            <li class="nav-item">
+              <a class="nav-link active text-success" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item fs-5" href="#">Upcoming</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item fs-5" href="#">Upcoming</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item fs-5" href="#">Upcoming</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ourteam">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner1.jpg" class="d-block w-100" alt="slide01">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/banner2.jpg" class="d-block w-100" alt="slide02">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner3.jpg" class="d-block w-100" alt="slide02">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+ </header> 
+   
+ <section data-aos="zoom-out-right" data-aos-offset="300" class="about" id="about">
+    <div class="container ms-auto ">
+        <div class="text-center my-5">
+        <h1> About <span class="tech">Us</span></h1>
+        <hr/ class="w-25 m-auto mb-5">
+       </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg- col-12 px-5">
+                <h1>What Do You Want Know?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quia suscipit nemo molestiae delectus sint dolore quasi magnam excepturi dicta.</p>
+                <button type="button" class="btn btn-light mb-3">More About Us</button><br><br><br>
+
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button bg-success text-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Our Buisness
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maiores vel velit rem perspiciatis accusantium doloremque, ipsum accusamus? Laudantium, pariatur fugit ab ex est exercitationem ut voluptatem! Dicta, repudiandae labore.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          Our Goal
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          Our Achievement
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body ">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auo text-end mt-3 px-5">
+                <img src="/images/namita-thapar.jpeg" class="img-fluid rounded text-end mt-3 ">
+                <hr/ class=" m-auto mb-3">
+                <h1>Head Of <span class="tech">Healthy-Food</span>  LTD.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, qui!
+                </p>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+ </section>
+
+ <section data-aos="zoom-out-right" data-aos-offset="300" class="Sevice" id="services">
+    <div class="container bg-light">
+        <div class="text-center py-2 my-5 ">
+            <h1> Our <span class="tech">Services</span></h1>
+            <hr/ class="w-25 m-auto mb-5">
+           </div>
+           <!-- ROW PART 1 -->
+           <div class="row">
+           <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-12">
+            <div class="card">
+             <div class="card-body">
+               
+                <h5 class="card-title">Home Chef  <i class="fa-solid fa-utensils tech"></i> </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+           </div>
+
+           </div>
+           <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-12">
+            <div class="card">
+             <div class="card-body">
+                <h5 class="card-title">Blue Apron <i class="fa-solid fa-utensils tech"></i></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+           </div>
+           </div>
+           <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-12">
+            <div class="card">
+             <div class="card-body">
+                <h5 class="card-title">Green Chef <i class="fa-solid fa-utensils tech"></i></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+              
+           </div>
+           </div>
+        </div>
+     <!-- row part 2 -->
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-12">
+             <div class="card">
+              <div class="card-body">
+                 <h5 class="card-title">Purple Carrot <i class="fa-solid fa-utensils tech"></i></h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn btn-success">Go somewhere</a>
+             </div>
+            </div>
+ 
+            </div>
+            <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-12">
+             <div class="card">
+              <div class="card-body">
+                 <h5 class="card-title">Splendid Spoon <i class="fa-solid fa-utensils tech"></i></h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn btn-success">Go somewhere</a>
+             </div>
+            </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-md-4 col-lg-4 col-12">
+             <div class="card">
+              <div class="card-body">
+                 <h5 class="card-title">Sakara Life <i class="fa-solid fa-utensils tech"></i></h5>
+                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <a href="#" class="btn btn-success">Go somewhere</a>
+             </div>
+               
+            </div>
+            </div>
+         </div>
+        </div>
+    </div>
+    
+ </section>
+                 
+              <!-- our team part-->
+
+ <section data-aos="zoom-out-right" data-aos-offset="300" class="team my-5 text-center" id="ourteam">
+    <div class="text-center container py-2 my-5">
+        <h1> Our <span class="tech">Team</span></h1>
+        <hr/ class="w-25 m-auto mb-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/images/ajoy.jpg" class="img-fluid rounded-circle border border-success p-2 mb-2">
+                        <h5 class="card-title ">Ajoy Dey</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-success">More details</a>
+                      </div>
+    
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/images/pitu.jpg" class="img-fluid rounded-circle border border-success p-2 mb-2">
+                        <h5 class="card-title">Pritom Saha</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-success">More details</a>
+                      </div>
+    
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="/images/tonmoy.jpg" class="img-fluid rounded-circle border border-success p-2 mb-2">
+                        <h5 class="card-title">Tonmoy Saha</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-success">More details</a>
+                      </div>
+    
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+ 
+ </section>
+
+ <section data-aos="zoom-out-right" data-aos-offset="200" class="contact py-5" id="contact">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1> Feel Free <span class="To Contact">Us</span></h1>
+            <hr/ class="w-25 m-auto mb-5">
+        </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-12">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">State</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input bg-success" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-success">Sign in</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12"></div>
+            </div>
+    
+
+ </section>
+
+ <div class="container-fluid bg-success text-white text-center fs-6">Developed By Shuvo Raj</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+  </body>
+</html>
